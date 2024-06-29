@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WASTAGE MANAGEMENT SYSTEM</title>
+</head>
+<body class="home-page">
+<!---navigation menu----> 
+<nav>
+    <img src="WMS LOGO.png" alt="logo" class="logo">
+    <ul>
+        <li><a href="index.html" id="home-link">Home</a></li>
+        <li><a href="about.html" id="about-link">About</a></li>
+        <li><a href="services.html" id="services-link">Services</a></li>
+        <li><a href="blog.html" id="blog-link">Blog</a></li>
+        <li><a href="contact.html" id="contact-link">Contact</a></li>
+        <li><a href="FAQ.html" id="FAQ-link">FAQ</a></li>
+    </ul>
+</nav>
+
+
+<!---first information--->
+ <section id="info-section">
+    <h1>Welcome<br> to The Wastage<br> Management System</h1>
+    <p class="pup">This system aims to reduce waste, optimize resource utilization, and promote sustainability in various settings, such as industries, organizations and communities.</p>
+    <p class="dash">Sign Up or login to access the dashboard and <br>start tracking your resource usage today!</p>
+   
+ </section>
+
+
+ <!----Authentication section--->
+    <div class="auth-section">
+        
+        <div class="container">
+            <div id="signup-container">
+                <div class="signup-section">
+                    <h3>Sign Up</h3>
+                    <form id="signup-form">
+                        <!---fields------->
+                        <label for="Firstname"></label>
+                        <input type="text" class="field" id="firstname" name="firstname" placeholder="firstname">
+                        <label for="Lastname"></label>
+                        <input type="text" class="field" id="lastname" name="lastname" placeholder="lastname">
+                        <label for="Email"></label>
+                        <input type="text" class="field" id="Email" name="Email" placeholder="Email">
+                        <label for="Password"></label>
+                        <input type="password" class="field" id="Password name="Password placeholder="Password">
+                        <input type="submit"  value="Sign Up">
+                        <p>Already have an account?<a href="#" id="login-link">Login</a></p>
+                    </form>
+                   
+                </div>
+
+            </div>
+
+
+        
+
+        <!---login section, This will only be displayed when the user clicks on login due to the style display none--->
+       <div id="login-container" style="display:nine;">
+        <div class="login-section">
+            <h3>Login</h3>
+            <form id="login-form">
+                <!----login fields----->
+                <label for="email"></label>
+                <input type="email" class="field" id="email" name="email" placeholder="Email">
+                <label for="Password"></label>
+                <input type="password" class="field" id="password" name="password" placeholder="Password">
+                  <div class="check">
+                    <input type="checkbox" id="remember-me" class="checkbox">
+                    <label for="remember-me" class="label">Remember me</label>
+                  </div> 
+                <input type="submit" value="Login">
+                
+                <p>Don't have an account?<a href="#" id="signup-link">Sign Up</a></p>
+            </form>            
+         
+        </div>
+       </div>
+    </div>
+    </div>
+
+<!----about section----->
+
+
+    <!----service section---->
+    
+    <div id="services-section">
+        <h2 class="serve">OUR SERVICES</h2>
+        <div class="service">
+            <img src="recycle.png" alt="RECYCLING">
+            <h3>RECYCLING</h3>
+            <p>We ensure that we recycle those wastes and turn them into other resources taht can be used to solve another problem.</p>
+        </div>
+        <div class="service">
+            <img src="ordering.png" alt="ORDERING">
+            <h3>ORDERING</h3>
+            <p>Place your orders at any industry of your choice so that your product can be manufactured for you to avoid over production</p>
+        </div>
+        <div class="service">
+            <img src="payment.png" alt="PAYMENT">
+            <h3>PAYMENT</h3>
+            <p>Pay for the ordered goods and items directly through us and let it be shipped to your location without moving an inch while saving time<p>
+        </div>
+        <div class="service">
+            <img src="Monitor_Icon-removebg-preview.png" alt="MONITORING">
+            <h3>MONITORING</h3>
+            <p>We do monitoring of resource usage in different areas like industtries, communities so as to ensure optimum usage of resources</p>
+        </div>
+        <div class="service">
+            <img src="Food_delivery-removebg-preview.png" alt="BROWSING">
+            <h3>DELIVERY</h3>
+            <p>We deliver the ordered and finished product plus the different resources and wastes to certain destination where they are supposed to be delivered</p>
+        </div>
+        <div class="service">
+            <img src="Free_Search_PNG__SVG_Icon-removebg-preview.png" alt="BROWSING">
+            <h3>BROWSING</h3>
+            <p>We help you find and navigate through the different companies and choose where to place your order plus detailed information about resource wastage</p>
+        </div>
+    </div>
+
+   
+    
+
+    <!-----footer---->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Wastage Management System</p>
+            <p> Privacy Policy | Terms of Use</p>
+            <p>Author : Akemo Denis</p>
+        </div>
+    </footer>
+
+
+    
+    
+<script src="script.js"></script>
+</body>
+</html>
